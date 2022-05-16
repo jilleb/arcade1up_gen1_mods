@@ -1,0 +1,1301 @@
+SF2 Filelisting, source: https://pastebin.com/LG10cN6K
+
+.
+|   linuxrc
+|   
++---.mplayer
+|       config
+|       
++---bin
+|       aserver
+|       ash
+|       busybox
+|       cat
+|       catv
+|       chattr
+|       chgrp
+|       chmod
+|       chown
+|       cp
+|       cpio
+|       date
+|       dd
+|       df
+|       dmesg
+|       dnsdomainname
+|       dumpkmap
+|       echo
+|       egrep
+|       false
+|       fdflush
+|       fgrep
+|       getopt
+|       grep
+|       gunzip
+|       gzip
+|       hostname
+|       kill
+|       linux32
+|       linux64
+|       ln
+|       login
+|       ls
+|       lsattr
+|       mkdir
+|       mknod
+|       mktemp
+|       more
+|       mount
+|       mountpoint
+|       mt
+|       mv
+|       netstat
+|       nice
+|       pidof
+|       ping
+|       pipe_progress
+|       printenv
+|       ps
+|       pwd
+|       rm
+|       rmdir
+|       run-parts
+|       sed
+|       setarch
+|       setserial
+|       sh
+|       sleep
+|       stty
+|       su
+|       sync
+|       tar
+|       touch
+|       true
+|       umount
+|       uname
+|       usleep
+|       vi
+|       watch
+|       zcat
+|       
++---dev
+|   |   console
+|   |   fb0
+|   |   fb1
+|   |   fb2
+|   |   fb3
+|   |   hda
+|   |   hda1
+|   |   hda10
+|   |   hda11
+|   |   hda12
+|   |   hda13
+|   |   hda14
+|   |   hda15
+|   |   hda2
+|   |   hda3
+|   |   hda4
+|   |   hda5
+|   |   hda6
+|   |   hda7
+|   |   hda8
+|   |   hda9
+|   |   hdb
+|   |   hdb1
+|   |   hdb10
+|   |   hdb11
+|   |   hdb12
+|   |   hdb13
+|   |   hdb14
+|   |   hdb15
+|   |   hdb2
+|   |   hdb3
+|   |   hdb4
+|   |   hdb5
+|   |   hdb6
+|   |   hdb7
+|   |   hdb8
+|   |   hdb9
+|   |   i2c-0
+|   |   i2c-1
+|   |   i2c-2
+|   |   i2c-3
+|   |   kmem
+|   |   log
+|   |   loop0
+|   |   loop1
+|   |   mem
+|   |   mtd0
+|   |   mtd1
+|   |   mtd2
+|   |   mtd3
+|   |   mtdblock0
+|   |   mtdblock1
+|   |   mtdblock2
+|   |   mtdblock3
+|   |   null
+|   |   psaux
+|   |   ptmx
+|   |   ptyp0
+|   |   ptyp1
+|   |   ptyp2
+|   |   ptyp3
+|   |   ptyp4
+|   |   ptyp5
+|   |   ptyp6
+|   |   ptyp7
+|   |   ptyp8
+|   |   ptyp9
+|   |   ram
+|   |   ram0
+|   |   ram1
+|   |   ram2
+|   |   ram3
+|   |   random
+|   |   rtc
+|   |   sda
+|   |   sda1
+|   |   sda10
+|   |   sda11
+|   |   sda12
+|   |   sda13
+|   |   sda14
+|   |   sda15
+|   |   sda2
+|   |   sda3
+|   |   sda4
+|   |   sda5
+|   |   sda6
+|   |   sda7
+|   |   sda8
+|   |   sda9
+|   |   sdb
+|   |   sdb1
+|   |   sdb10
+|   |   sdb11
+|   |   sdb12
+|   |   sdb13
+|   |   sdb14
+|   |   sdb15
+|   |   sdb2
+|   |   sdb3
+|   |   sdb4
+|   |   sdb5
+|   |   sdb6
+|   |   sdb7
+|   |   sdb8
+|   |   sdb9
+|   |   tty
+|   |   tty0
+|   |   tty1
+|   |   tty2
+|   |   tty3
+|   |   tty4
+|   |   tty5
+|   |   tty6
+|   |   tty7
+|   |   ttyAM0
+|   |   ttyAM1
+|   |   ttyAM2
+|   |   ttyAMA0
+|   |   ttyAMA1
+|   |   ttyAMA2
+|   |   ttyAMA3
+|   |   ttyCPM0
+|   |   ttyCPM1
+|   |   ttyCPM2
+|   |   ttyCPM3
+|   |   ttymxc0
+|   |   ttymxc1
+|   |   ttymxc2
+|   |   ttyp0
+|   |   ttyP1
+|   |   ttyP2
+|   |   ttyp3
+|   |   ttyp4
+|   |   ttyp5
+|   |   ttyp6
+|   |   ttyp7
+|   |   ttyp8
+|   |   ttyp9
+|   |   ttyPSC0
+|   |   ttyPSC1
+|   |   ttyPSC2
+|   |   ttyPSC3
+|   |   ttyS0
+|   |   ttyS1
+|   |   ttyS2
+|   |   ttyS3
+|   |   ttySAC0
+|   |   ttySAC1
+|   |   ttySAC2
+|   |   ttySAC3
+|   |   ttySC0
+|   |   ttySC1
+|   |   ttySC2
+|   |   ttySC3
+|   |   ttySC4
+|   |   ttySC5
+|   |   ttySC6
+|   |   ttySC7
+|   |   ttyUL0
+|   |   ttyUL1
+|   |   ttyUL2
+|   |   ttyUL3
+|   |   uba
+|   |   uba1
+|   |   uba2
+|   |   uba3
+|   |   uba4
+|   |   uba5
+|   |   uba6
+|   |   ubb
+|   |   ubb1
+|   |   ubb2
+|   |   ubb3
+|   |   ubb4
+|   |   ubb5
+|   |   ubb6
+|   |   urandom
+|   |   video0
+|   |   video1
+|   |   video2
+|   |   video3
+|   |   zero
+|   |   
+|   +---input
+|   |       event0
+|   |       event1
+|   |       event2
+|   |       event3
+|   |       mice
+|   |       mouse0
+|   |       mouse1
+|   |       mouse2
+|   |       mouse3
+|   |       
+|   +---net
+|   |       tun
+|   |       
+|   \---pts
++---etc
+|   |   fstab
+|   |   group
+|   |   group-
+|   |   hostname
+|   |   hosts
+|   |   inittab
+|   |   inputrc
+|   |   issue
+|   |   ld.so.conf
+|   |   modprobe.conf
+|   |   mtab
+|   |   nsswitch.conf
+|   |   os-release
+|   |   passwd
+|   |   passwd-
+|   |   profile
+|   |   protocols
+|   |   random-seed
+|   |   resolv.conf
+|   |   securetty
+|   |   services
+|   |   shadow
+|   |   shadow-
+|   |   shells
+|   |   wpa_supplicant.conf
+|   |   
+|   +---dhcp
+|   |       dhclient.conf
+|   |       dhcpd.conf
+|   |       
+|   +---dropbear
+|   |       dropbear_dss_host_key
+|   |       dropbear_rsa_host_key
+|   |       
+|   +---init.d
+|   |       bak.S99game
+|   |       mame.sh
+|   |       rcK
+|   |       rcS
+|   |       S01logging
+|   |       S20urandom
+|   |       S40network
+|   |       S50dropbear
+|   |       S80dhcp-relay
+|   |       S80dhcp-server
+|   |       S99game
+|   |       
+|   +---ld.so.conf.d
+|   \---network
+|       |   interfaces
+|       |   
+|       +---if-down.d
+|       +---if-post-down.d
+|       +---if-post-up.d
+|       +---if-pre-down.d
+|       +---if-pre-up.d
+|       \---if-up.d
++---home
+|   +---default
+|   |       .ash_history
+|   |       
+|   +---ftp
+|   \---newborg
++---include
+|   +---alsa
+|   |   |   alisp.h
+|   |   |   asoundef.h
+|   |   |   asoundlib.h
+|   |   |   conf.h
+|   |   |   control.h
+|   |   |   control_external.h
+|   |   |   error.h
+|   |   |   global.h
+|   |   |   hwdep.h
+|   |   |   input.h
+|   |   |   mixer.h
+|   |   |   mixer_abst.h
+|   |   |   output.h
+|   |   |   pcm.h
+|   |   |   pcm_external.h
+|   |   |   pcm_extplug.h
+|   |   |   pcm_ioplug.h
+|   |   |   pcm_old.h
+|   |   |   pcm_plugin.h
+|   |   |   pcm_rate.h
+|   |   |   rawmidi.h
+|   |   |   seq.h
+|   |   |   seqmid.h
+|   |   |   seq_event.h
+|   |   |   seq_midi_event.h
+|   |   |   timer.h
+|   |   |   topology.h
+|   |   |   use-case.h
+|   |   |   version.h
+|   |   |   
+|   |   \---sound
+|   |           asoc.h
+|   |           asound_fm.h
+|   |           emu10k1.h
+|   |           hdsp.h
+|   |           hdspm.h
+|   |           sb16_csp.h
+|   |           sscape_ioctl.h
+|   |           tlv.h
+|   |           type_compat.h
+|   |           
+|   \---sys
+|           asoundlib.h
+|           
++---lib
+|   |   ld-2.18.so
+|   |   ld-linux.so.3
+|   |   ld-musl-armhf.so.1
+|   |   ld-uClibc-0.9.33.2.so
+|   |   ld-uClibc.so.0
+|   |   libanl-2.18.so
+|   |   libanl.so.1
+|   |   libasound.la
+|   |   libasound.so
+|   |   libasound.so.2
+|   |   libasound.so.2.0.0
+|   |   libBrokenLocale-2.18.so
+|   |   libBrokenLocale.so.1
+|   |   libc-2.18.so
+|   |   libc.so.0
+|   |   libc.so.6
+|   |   libcidn-2.18.so
+|   |   libcidn.so.1
+|   |   libcrypt-0.9.33.2.so
+|   |   libcrypt-2.18.so
+|   |   libcrypt.so.0
+|   |   libcrypt.so.1
+|   |   libdl-0.9.33.2.so
+|   |   libdl-2.18.so
+|   |   libdl.so.0
+|   |   libdl.so.2
+|   |   libgcc_s.so
+|   |   libgcc_s.so.1
+|   |   libgiapi.so
+|   |   libiw.so
+|   |   libiw.so.29
+|   |   libm-0.9.33.2.so
+|   |   libm-2.18.so
+|   |   libm.so.0
+|   |   libm.so.6
+|   |   libmemusage.so
+|   |   libnsl-0.9.33.2.so
+|   |   libnsl-2.18.so
+|   |   libnsl.so.0
+|   |   libnsl.so.1
+|   |   libnss_compat-2.18.so
+|   |   libnss_compat.so.2
+|   |   libnss_db-2.18.so
+|   |   libnss_db.so.2
+|   |   libnss_dns-2.18.so
+|   |   libnss_dns.so.2
+|   |   libnss_files-2.18.so
+|   |   libnss_files.so.2
+|   |   libnss_hesiod-2.18.so
+|   |   libnss_hesiod.so.2
+|   |   libnss_nis-2.18.so
+|   |   libnss_nis.so.2
+|   |   libnss_nisplus-2.18.so
+|   |   libnss_nisplus.so.2
+|   |   libpcprofile.so
+|   |   libpthread-0.9.33.2.so
+|   |   libpthread-2.18.so
+|   |   libpthread.so.0
+|   |   libresolv-0.9.33.2.so
+|   |   libresolv-2.18.so
+|   |   libresolv.so.0
+|   |   libresolv.so.2
+|   |   librt-0.9.33.2.so
+|   |   librt-2.18.so
+|   |   librt.so.0
+|   |   librt.so.1
+|   |   libSegFault.so
+|   |   libstdc++.so.6
+|   |   libthread_db-1.0.so
+|   |   libthread_db.so.1
+|   |   libuClibc-0.9.33.2.so
+|   |   libutil-0.9.33.2.so
+|   |   libutil-2.18.so
+|   |   libutil.so.0
+|   |   libutil.so.1
+|   |   
+|   +---modules
+|   |   \---3.4.104
+|   |       |   modules.alias
+|   |       |   modules.alias.bin
+|   |       |   modules.builtin
+|   |       |   modules.builtin.bin
+|   |       |   modules.ccwmap
+|   |       |   modules.dep
+|   |       |   modules.dep.bin
+|   |       |   modules.devname
+|   |       |   modules.ieee1394map
+|   |       |   modules.inputmap
+|   |       |   modules.isapnpmap
+|   |       |   modules.ofmap
+|   |       |   modules.order
+|   |       |   modules.pcimap
+|   |       |   modules.seriomap
+|   |       |   modules.softdep
+|   |       |   modules.symbols
+|   |       |   modules.symbols.bin
+|   |       |   modules.usbmap
+|   |       |   
+|   |       \---kernel
+|   |           +---drivers
+|   |           |   +---gpio
+|   |           |   |       gpio-sunxi.ko
+|   |           |   |       
+|   |           |   +---gpu
+|   |           |   |   \---mali
+|   |           |   |       +---mali
+|   |           |   |       |       mali.ko
+|   |           |   |       |       
+|   |           |   |       \---ump
+|   |           |   |               ump.ko
+|   |           |   |               
+|   |           |   +---hid
+|   |           |   |       hid-logitech-dj.ko
+|   |           |   |       
+|   |           |   +---hwmon
+|   |           |   |       mma7660.ko
+|   |           |   |       
+|   |           |   +---input
+|   |           |   |   +---keyboard
+|   |           |   |   |       hv2605.ko
+|   |           |   |   |       sun4i-keyboard.ko
+|   |           |   |   |       sun4i-keypad.ko
+|   |           |   |   |       
+|   |           |   |   \---touchscreen
+|   |           |   |           ft5x_ts.ko
+|   |           |   |           goodix_touch.ko
+|   |           |   |           gt811_ts.ko
+|   |           |   |           gt818_ts.ko
+|   |           |   |           sun4i-ts.ko
+|   |           |   |           zt8031.ko
+|   |           |   |           
+|   |           |   +---media
+|   |           |   |   \---video
+|   |           |   |       \---sunxi
+|   |           |   |               sunxi_cedar_mod.ko
+|   |           |   |               
+|   |           |   +---net
+|   |           |   |   +---ethernet
+|   |           |   |   |   \---allwinner
+|   |           |   |   |           sunxi_emac.ko
+|   |           |   |   |           
+|   |           |   |   \---wireless
+|   |           |   |       +---bcm4330
+|   |           |   |       |       bcm4330.ko
+|   |           |   |       |       
+|   |           |   |       \---rtl8192cu
+|   |           |   |               8192cu.ko
+|   |           |   |               
+|   |           |   +---scsi
+|   |           |   |       scsi_wait_scan.ko
+|   |           |   |       
+|   |           |   +---usb
+|   |           |   |   \---misc
+|   |           |   |           cypress_cy7c63.ko
+|   |           |   |           
+|   |           |   +---video
+|   |           |   |   \---sunxi
+|   |           |   |       \---disp
+|   |           |   |               disp_ump.ko
+|   |           |   |               
+|   |           |   \---w1
+|   |           |       |   w1_sunxi.ko
+|   |           |       |   wire.ko
+|   |           |       |   
+|   |           |       \---masters
+|   |           |               w1-gpio.ko
+|   |           |               
+|   |           +---net
+|   |           |   \---core
+|   |           |           pktgen.ko
+|   |           |           
+|   |           \---sound
+|   |               \---soc
+|   |                   \---sunxi
+|   |                       +---i2s
+|   |                       |       sndi2s.ko
+|   |                       |       sunxi-i2s.ko
+|   |                       |       sunxi-i2sdma.ko
+|   |                       |       sunxi-sndi2s.ko
+|   |                       |       
+|   |                       \---spdif
+|   |                               sndspdif.ko
+|   |                               sunxi_sndspdif.ko
+|   |                               sunxi_spdif.ko
+|   |                               sunxi_spdma.ko
+|   |                               
+|   \---pkgconfig
+|           alsa.pc
+|           
++---media
++---mnt
+|   \---udisk
++---opt
++---proc
++---root
+|   |   .ash_history
+|   |   .bash_history
+|   |   .bash_logout
+|   |   .bash_profile
+|   |   arcade1up.avi
+|   |   config
+|   |   game1
+|   |   game2
+|   |   game3
+|   |   game4
+|   |   loading.avi
+|   |   mame.ini
+|   |   mameload.sh
+|   |   menu
+|   |   MOO-Capcom-ShipMusl-SF
+|   |   mount.sh
+|   |   mp.sh
+|   |   mplayer
+|   |   testmode
+|   |   unmount.sh
+|   |   
+|   +---.mplayer
+|   |       config
+|   |       
+|   +---565
+|   |       01.565
+|   |       01.load
+|   |       02.565
+|   |       02.load
+|   |       03.565
+|   |       03.load
+|   |       b.565
+|   |       g.565
+|   |       legal.565
+|   |       r.565
+|   |       w.565
+|   |       
+|   +---cfg
+|   |       1942.cfg
+|   |       1944.cfg
+|   |       asteroid.cfg
+|   |       bwidow.cfg
+|   |       ccastles.cfg
+|   |       centiped.cfg
+|   |       default.cfg
+|   |       defender.cfg
+|   |       empty.cfg
+|   |       ffight.cfg
+|   |       gauntlet.cfg
+|   |       gng.cfg
+|   |       gngt.cfg
+|   |       joust.cfg
+|   |       liberatr.cfg
+|   |       llander.cfg
+|   |       milliped.cfg
+|   |       missile.cfg
+|   |       mk2.cfg
+|   |       rampage.cfg
+|   |       sbrkout.cfg
+|   |       sf2ce.cfg
+|   |       ssf2.cfg
+|   |       ssf2t.cfg
+|   |       strider.cfg
+|   |       striderua.cfg
+|   |       tempest.cfg
+|   |       
+|   +---docs
+|   |       1944TheLoopMaster.sav.zip
+|   |       FinalFight.sav.zip
+|   |       Galaxian_N1.sav.zip
+|   |       GhostsNGoblins_W1.sav.zip
+|   |       StreetFighterII_CE.sav.zip
+|   |       Strider_U3.sav.zip
+|   |       SuperStreetFighterII.sav.zip
+|   |       SuperStreetFighterIITurbo.sav.zip
+|   |       
+|   +---info
+|   |       board
+|   |       date
+|   |       model
+|   |       version
+|   |       
+|   +---test
+|   |   |   effect1.mp3
+|   |   |   effect2.mp3
+|   |   |   error.mp3
+|   |   |   Europa.mp3
+|   |   |   key.wav
+|   |   |   test_tone.mp3
+|   |   |   
+|   |   +---nva
+|   |   |       count
+|   |   |       fail
+|   |   |       pass
+|   |   |       
+|   |   \---nvb
+|   |           count
+|   |           fail
+|   |           pass
+|   |           
+|   \---zassets
+|       |   StreetFighterII_CE.sav.zip
+|       |   SuperStreetFighterII.sav.zip
+|       |   SuperStreetFighterIITurbo.sav.zip
+|       |   
+|       \---Capcom
+|               StreetFighterII_CE.zip
+|               SuperStreetFighterII.zip
+|               SuperStreetFighterIITurbo.zip
+|               
++---run
++---sbin
+|       alsactl
+|       aplay
+|       blkid
+|       devmem
+|       dhclient-script
+|       freeramdisk
+|       fsck
+|       getty
+|       halt
+|       hdparm
+|       hwclock
+|       ifconfig
+|       ifdown
+|       ifup
+|       init
+|       insmod
+|       ip
+|       ipaddr
+|       iplink
+|       iproute
+|       iprule
+|       iptunnel
+|       iwconfig
+|       iwgetid
+|       iwlist
+|       iwpriv
+|       iwspy
+|       klogd
+|       ldconfig
+|       loadkmap
+|       losetup
+|       lsmod
+|       makedevs
+|       mdev
+|       mkswap
+|       modprobe
+|       nameif
+|       pivot_root
+|       poweroff
+|       reboot
+|       rmmod
+|       route
+|       runlevel
+|       setconsole
+|       sln
+|       start-stop-daemon
+|       sulogin
+|       swapoff
+|       swapon
+|       switch_root
+|       sysctl
+|       syslogd
+|       udhcpc
+|       vconfig
+|       watchdog
+|       
++---share
+|   +---aclocal
+|   |       alsa.m4
+|   |       
+|   \---alsa
+|       |   alsa.conf
+|       |   sndo-mixer.alisp
+|       |   
+|       +---alsa.conf.d
+|       |       README
+|       |       
+|       +---cards
+|       |   |   AACI.conf
+|       |   |   aliases.alisp
+|       |   |   aliases.conf
+|       |   |   ATIIXP-MODEM.conf
+|       |   |   ATIIXP-SPDMA.conf
+|       |   |   ATIIXP.conf
+|       |   |   AU8810.conf
+|       |   |   AU8820.conf
+|       |   |   AU8830.conf
+|       |   |   Audigy.conf
+|       |   |   Audigy2.conf
+|       |   |   Aureon51.conf
+|       |   |   Aureon71.conf
+|       |   |   CA0106.conf
+|       |   |   CMI8338-SWIEC.conf
+|       |   |   CMI8338.conf
+|       |   |   CMI8738-MC6.conf
+|       |   |   CMI8738-MC8.conf
+|       |   |   CMI8788.conf
+|       |   |   CS46xx.conf
+|       |   |   Echo_Echo3G.conf
+|       |   |   EMU10K1.conf
+|       |   |   EMU10K1X.conf
+|       |   |   ENS1370.conf
+|       |   |   ENS1371.conf
+|       |   |   ES1968.conf
+|       |   |   FireWave.conf
+|       |   |   FM801.conf
+|       |   |   FWSpeakers.conf
+|       |   |   GUS.conf
+|       |   |   HDA-Intel.conf
+|       |   |   HdmiLpeAudio.conf
+|       |   |   ICE1712.conf
+|       |   |   ICE1724.conf
+|       |   |   ICH-MODEM.conf
+|       |   |   ICH.conf
+|       |   |   ICH4.conf
+|       |   |   Loopback.conf
+|       |   |   Maestro3.conf
+|       |   |   NFORCE.conf
+|       |   |   PC-Speaker.conf
+|       |   |   pistachio-card.conf
+|       |   |   PMac.conf
+|       |   |   PMacToonie.conf
+|       |   |   PS3.conf
+|       |   |   RME9636.conf
+|       |   |   RME9652.conf
+|       |   |   SB-XFi.conf
+|       |   |   SI7018.conf
+|       |   |   TRID4DWAVENX.conf
+|       |   |   USB-Audio.conf
+|       |   |   vc4-hdmi.conf
+|       |   |   VIA686A.conf
+|       |   |   VIA8233.conf
+|       |   |   VIA8233A.conf
+|       |   |   VIA8237.conf
+|       |   |   VX222.conf
+|       |   |   VXPocket.conf
+|       |   |   VXPocket440.conf
+|       |   |   YMF744.conf
+|       |   |   
+|       |   \---SI7018
+|       |           sndoc-mixer.alisp
+|       |           sndop-mixer.alisp
+|       |           
+|       +---pcm
+|       |       center_lfe.conf
+|       |       default.conf
+|       |       dmix.conf
+|       |       dpl.conf
+|       |       dsnoop.conf
+|       |       front.conf
+|       |       hdmi.conf
+|       |       iec958.conf
+|       |       modem.conf
+|       |       rear.conf
+|       |       side.conf
+|       |       surround21.conf
+|       |       surround40.conf
+|       |       surround41.conf
+|       |       surround50.conf
+|       |       surround51.conf
+|       |       surround71.conf
+|       |       
+|       +---topology
+|       |   +---broadwell
+|       |   |       broadwell.conf
+|       |   |       
+|       |   +---bxtrt298
+|       |   |       bxt_i2s.conf
+|       |   |       
+|       |   \---sklrt286
+|       |           skl_i2s.conf
+|       |           
+|       \---ucm
+|           +---broadwell-rt286
+|           |       broadwell-rt286.conf
+|           |       HiFi
+|           |       
+|           +---broxton-rt298
+|           |       broxton-rt298.conf
+|           |       Hdmi1
+|           |       Hdmi2
+|           |       HiFi
+|           |       
+|           +---bytcr-rt5651
+|           |       bytcr-rt5651.conf
+|           |       HiFi.conf
+|           |       
+|           +---chtrt5645
+|           |       chtrt5645.conf
+|           |       HiFi.conf
+|           |       
+|           +---DAISY-I2S
+|           |       DAISY-I2S.conf
+|           |       HiFi.conf
+|           |       
+|           +---DB410c
+|           |       DB410c.conf
+|           |       HDMI
+|           |       HiFi
+|           |       
+|           +---GoogleNyan
+|           |       GoogleNyan.conf
+|           |       HiFi.conf
+|           |       
+|           +---PandaBoard
+|           |       FMAnalog
+|           |       hifi
+|           |       hifiLP
+|           |       PandaBoard.conf
+|           |       record
+|           |       voice
+|           |       voiceCall
+|           |       
+|           +---PandaBoardES
+|           |       FMAnalog
+|           |       hifi
+|           |       hifiLP
+|           |       PandaBoardES.conf
+|           |       record
+|           |       voice
+|           |       voiceCall
+|           |       
+|           +---PAZ00
+|           |       HiFi.conf
+|           |       PAZ00.conf
+|           |       Record.conf
+|           |       
+|           +---SDP4430
+|           |       FMAnalog
+|           |       hifi
+|           |       hifiLP
+|           |       record
+|           |       SDP4430.conf
+|           |       voice
+|           |       voiceCall
+|           |       
+|           +---skylake-rt286
+|           |       Hdmi1
+|           |       Hdmi2
+|           |       HiFi
+|           |       skylake-rt286.conf
+|           |       
+|           +---tegraalc5632
+|           |       tegraalc5632.conf
+|           |       
+|           \---VEYRON-I2S
+|                   HiFi.conf
+|                   VEYRON-I2S.conf
+|                   
++---sys
++---tmp
+|   |   utmp
+|   |   
+|   \---ldconfig
++---usr
+|   +---bin
+|   |       ar
+|   |       awk
+|   |       basename
+|   |       bunzip2
+|   |       bzcat
+|   |       catchsegv
+|   |       chrt
+|   |       chvt
+|   |       cksum
+|   |       clear
+|   |       cmp
+|   |       crontab
+|   |       cut
+|   |       dbclient
+|   |       dc
+|   |       deallocvt
+|   |       diff
+|   |       dirname
+|   |       dos2unix
+|   |       dropbearconvert
+|   |       dropbearkey
+|   |       du
+|   |       eject
+|   |       em
+|   |       env
+|   |       expr
+|   |       find
+|   |       fold
+|   |       free
+|   |       fuser
+|   |       gdbserver
+|   |       gencat
+|   |       getconf
+|   |       getent
+|   |       head
+|   |       hexdump
+|   |       hostid
+|   |       iconv
+|   |       id
+|   |       install
+|   |       ipcrm
+|   |       ipcs
+|   |       killall
+|   |       last
+|   |       ldd
+|   |       less
+|   |       locale
+|   |       localedef
+|   |       logger
+|   |       logname
+|   |       lsmod
+|   |       lsof
+|   |       lspci
+|   |       lsusb
+|   |       lzcat
+|   |       lzma
+|   |       makedb
+|   |       md5sum
+|   |       mesg
+|   |       microcom
+|   |       mkfifo
+|   |       mod-rtc
+|   |       mod-tc-mk2
+|   |       mtrace
+|   |       nohup
+|   |       nslookup
+|   |       od
+|   |       openvt
+|   |       passwd
+|   |       patch
+|   |       pcprofiledump
+|   |       picolisp
+|   |       pil
+|   |       pldd
+|   |       plmod
+|   |       printf
+|   |       psh
+|   |       readlink
+|   |       realpath
+|   |       renice
+|   |       reset
+|   |       resize
+|   |       rpcgen
+|   |       scp
+|   |       seq
+|   |       setkeycodes
+|   |       setsid
+|   |       sha1sum
+|   |       sha256sum
+|   |       sha3sum
+|   |       sha512sum
+|   |       sort
+|   |       sotruss
+|   |       sprof
+|   |       ssh
+|   |       strings
+|   |       tail
+|   |       tee
+|   |       telnet
+|   |       test
+|   |       tftp
+|   |       time
+|   |       top
+|   |       tr
+|   |       traceroute
+|   |       tty
+|   |       tzselect
+|   |       uniq
+|   |       unix2dos
+|   |       unlzma
+|   |       unxz
+|   |       unzip
+|   |       uptime
+|   |       uudecode
+|   |       uuencode
+|   |       vlock
+|   |       watchdog
+|   |       wc
+|   |       wget
+|   |       which
+|   |       who
+|   |       whoami
+|   |       xargs
+|   |       xtrace
+|   |       xz
+|   |       xzcat
+|   |       yes
+|   |       [
+|   |       [[
+|   |       
+|   +---lib
+|   |   |   libanl.so
+|   |   |   libatomic.so
+|   |   |   libatomic.so.1
+|   |   |   libatomic.so.1.0.0
+|   |   |   libBrokenLocale.so
+|   |   |   libc.so
+|   |   |   libcidn.so
+|   |   |   libcrypt.so
+|   |   |   libdl.so
+|   |   |   libm.so
+|   |   |   libncurses.so
+|   |   |   libncurses.so.5
+|   |   |   libncurses.so.5.9
+|   |   |   libnsl.so
+|   |   |   libnss_compat.so
+|   |   |   libnss_db.so
+|   |   |   libnss_dns.so
+|   |   |   libnss_files.so
+|   |   |   libnss_hesiod.so
+|   |   |   libnss_nis.so
+|   |   |   libnss_nisplus.so
+|   |   |   libpthread.so
+|   |   |   libresolv.so
+|   |   |   librt.so
+|   |   |   libstdc++.so
+|   |   |   libstdc++.so.6
+|   |   |   libstdc++.so.6.0.19
+|   |   |   libthread_db.so
+|   |   |   libutil.so
+|   |   |   
+|   |   +---audit
+|   |   |       sotruss-lib.so
+|   |   |       
+|   |   +---bin
+|   |   |       catchsegv
+|   |   |       gdbserver
+|   |   |       gencat
+|   |   |       getconf
+|   |   |       getent
+|   |   |       iconv
+|   |   |       iconvconfig
+|   |   |       ldconfig
+|   |   |       ldd
+|   |   |       locale
+|   |   |       localedef
+|   |   |       makedb
+|   |   |       mtrace
+|   |   |       nscd
+|   |   |       pcprofiledump
+|   |   |       pldd
+|   |   |       POSIX_V6_ILP32_OFF32
+|   |   |       POSIX_V6_ILP32_OFFBIG
+|   |   |       POSIX_V7_ILP32_OFF32
+|   |   |       POSIX_V7_ILP32_OFFBIG
+|   |   |       rpcgen
+|   |   |       sln
+|   |   |       sotruss
+|   |   |       sprof
+|   |   |       tzselect
+|   |   |       XBS5_ILP32_OFF32
+|   |   |       XBS5_ILP32_OFFBIG
+|   |   |       xtrace
+|   |   |       zdump
+|   |   |       zic
+|   |   |       
+|   |   +---picolisp
+|   |   |   |   lib.l
+|   |   |   |   
+|   |   |   \---lib
+|   |   |       |   adm.l
+|   |   |       |   app.l
+|   |   |       |   bash_completion
+|   |   |       |   boss.l
+|   |   |       |   btree.l
+|   |   |       |   cal.l
+|   |   |       |   complete.l
+|   |   |       |   conDbgc.l
+|   |   |       |   db.l
+|   |   |       |   db32-64.l
+|   |   |       |   dbase.l
+|   |   |       |   debug.l
+|   |   |       |   ed.l
+|   |   |       |   edit.l
+|   |   |       |   eedit.l
+|   |   |       |   eled.l
+|   |   |       |   ext
+|   |   |       |   form.js
+|   |   |       |   form.l
+|   |   |       |   frac.l
+|   |   |       |   gcc.l
+|   |   |       |   glyphlist.txt
+|   |   |       |   head.ps
+|   |   |       |   heartbeat.l
+|   |   |       |   ht
+|   |   |       |   http.l
+|   |   |       |   import.l
+|   |   |       |   led.l
+|   |   |       |   led.min.l
+|   |   |       |   lint.l
+|   |   |       |   map
+|   |   |       |   math.l
+|   |   |       |   math32.l
+|   |   |       |   math64.l
+|   |   |       |   misc.l
+|   |   |       |   native.l
+|   |   |       |   openGl.l
+|   |   |       |   pilog.l
+|   |   |       |   prof.l
+|   |   |       |   ps.l
+|   |   |       |   readline.l
+|   |   |       |   rsa.l
+|   |   |       |   scrape.l
+|   |   |       |   simul.l
+|   |   |       |   sq.l
+|   |   |       |   term.l
+|   |   |       |   test.l
+|   |   |       |   tex.l
+|   |   |       |   too.l
+|   |   |       |   tsm.l
+|   |   |       |   xhtml.l
+|   |   |       |   xm.l
+|   |   |       |   xml.l
+|   |   |       |   xmlrpc.l
+|   |   |       |   zahlwort.l
+|   |   |       |   
+|   |   |       \---el
+|   |   |               inferior-picolisp.el
+|   |   |               paredit.el.diff
+|   |   |               picolisp-wiki-mode.el
+|   |   |               picolisp.el
+|   |   |               README
+|   |   |               tsm.el
+|   |   |               
+|   |   \---terminfo
+|   +---libexec
+|   |   \---getconf
+|   |           POSIX_V6_ILP32_OFF32
+|   |           POSIX_V6_ILP32_OFFBIG
+|   |           POSIX_V7_ILP32_OFF32
+|   |           POSIX_V7_ILP32_OFFBIG
+|   |           XBS5_ILP32_OFF32
+|   |           XBS5_ILP32_OFFBIG
+|   |           
+|   +---local
+|   |   \---share
+|   |           alsa.conf
+|   |           
+|   +---sbin
+|   |       addgroup
+|   |       adduser
+|   |       arping
+|   |       chroot
+|   |       crond
+|   |       delgroup
+|   |       deluser
+|   |       depmod
+|   |       dhclient
+|   |       dhcpd
+|   |       dhcrelay
+|   |       dnsd
+|   |       dropbear
+|   |       ether-wake
+|   |       fdformat
+|   |       iconvconfig
+|   |       inetd
+|   |       insmod
+|   |       killall5
+|   |       loadfont
+|   |       modinfo
+|   |       modprobe
+|   |       nscd
+|   |       rdate
+|   |       readprofile
+|   |       rmmod
+|   |       setlogcons
+|   |       wpa_cli
+|   |       wpa_passphrase
+|   |       wpa_supplicant
+|   |       zdump
+|   |       zic
+|   |       
+|   \---share
+|       +---alsa
+|       +---terminfo
+|       |   +---a
+|       |   |       ansi
+|       |   |       
+|       |   +---l
+|       |   |       linux
+|       |   |       
+|       |   +---s
+|       |   |       screen
+|       |   |       
+|       |   +---v
+|       |   |       vt100
+|       |   |       vt102
+|       |   |       vt200
+|       |   |       vt220
+|       |   |       
+|       |   \---x
+|       |           xterm
+|       |           xterm-color
+|       |           xterm-xfree86
+|       |           
+|       \---udhcpc
+|               default.script
+|               
++---var
+|   +---cache
+|   +---db
+|   |       Makefile
+|   |       
+|   +---lib
+|   |   +---dhcp
+|   |   +---misc
+|   |   \---pcmcia
+|   +---lock
+|   +---log
+|   +---pcmcia
+|   +---run
+|   +---spool
+|   +---tmp
+|   \---www
++---vgdb
+\---[SYS]
+        Journal
