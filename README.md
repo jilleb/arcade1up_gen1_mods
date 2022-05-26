@@ -7,6 +7,7 @@ Requirements:
 
 ### 565_to_png.py
 Tool to convert all .565 and .load files from a certain folder to .png files for easy editing.
+
 Usage: ```python 565_to_png.py <path to .565 files> <output folder>```
 
 For example:
@@ -14,6 +15,7 @@ For example:
 
 ### png_to_565.py
 Tool to convert all .png files from a certain folder back to .565 or .load files for use in your Arcade1Up device.
+
 Usage: ```python png_to_565.py <path to .png files> <output folder>```
 
 For example:
