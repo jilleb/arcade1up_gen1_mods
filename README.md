@@ -6,6 +6,8 @@ Requirements:
 - Python 3 with PIL installed. (run ```pip install image``` from your cmd or terminal)
 
 ### 565_to_png.py
+![image](https://user-images.githubusercontent.com/8352494/170453744-176c0a92-fb42-45cb-bdae-8f6735fa2515.png)
+
 Tool to convert all .565 and .load files from a certain folder to .png files for easy editing.
 
 Usage: ```python 565_to_png.py <path to .565 files> <output folder>```
