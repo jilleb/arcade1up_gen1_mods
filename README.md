@@ -41,7 +41,7 @@ For example:
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jille)
 
 
-#Notes:
+# Notes:
 This repository bundles information of any sources I could find and stuff I made myself, after personally testing it and putting it to good use. Some interesting resources:
 - https://imgur.com/user/berryberrysneaky
 - https://www.reddit.com/r/Arcade1Up/comments/pnp6nk/how_to_install_retroarch_and_nova_launcher_on_a/?utm_medium=android_app&utm_source=share
