@@ -1,7 +1,7 @@
 # Mods, tools and info for Aracade1Up Generation 1 PCBs
 
 ## Disclaimer
-This repository is meant to be a one-stop-shop for info, howto's and tools for modding Arcade1Up Generation 1 cabinets. Most of the knowledge is very spread out, hidden in long Reddit threads or just in the heads of some people.  I know that most people throw out the original hardware, and only use the screen and case of the Arcade1Up together with a RetroPie. In my opinion this is wasteful, and my goal is to get the most out of the original hard- and software. Please do not abuse, misuse or sell the stuff I'm sharing here. Make sure to keep backups of everything you intend to change. Everything you do, is at your own risk. This repository is not meant for piracy, sharing illegal files or to harm Arcade1Up hardware or the Arcade1Up company in any way.
+This repository is meant to be a one-stop-shop for info, howto's and tools for modding Arcade1Up Generation 1 cabinets. Most of the knowledge is very spread out, hidden in long Reddit threads or just in the heads of some people.  I know that most people throw out the original hardware, and only use the screen and case of the Arcade1Up together with a RetroPie. In my opinion this is wasteful, and my goal is to get the most out of the original hard- and software. Please do not abuse, misuse or sell the stuff I'm sharing here. Make sure to keep backups of everything you intend to change. Everything you do, is at your own risk. This repository is not meant for piracy, sharing illegal files or to harm Arcade1Up hardware or the Arcade1Up company in any way. 
 
 Make sure to have fun, because that's what this all about.
 
@@ -39,3 +39,14 @@ For example:
 
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jille)
+
+
+#Notes:
+This repository bundles information of any sources I could find and stuff I made myself, after personally testing it and putting it to good use. Some interesting resources:
+- https://imgur.com/user/berryberrysneaky
+- https://www.reddit.com/r/Arcade1Up/comments/pnp6nk/how_to_install_retroarch_and_nova_launcher_on_a/?utm_medium=android_app&utm_source=share
+- https://voidstarsec.com/blog//2022/01/27/uart-uboot-and-usb (not for the gen1, but still interesting!)
+- https://www.synacktiv.com/ressources/sf30_r2con.pdf
+- https://github.com/xC0000005/Arcade1UpTools (565_to_png.py uses code from their a1upgfx.py script)
+- https://www.reddit.com/r/Arcade1Up/comments/asv44m/how_to_convert_arcade1up_menu_screens_tofrom/
+- https://wrongbaud.github.io/
